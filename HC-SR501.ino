@@ -17,14 +17,14 @@ void loop() {
   if (val == HIGH) {
     if (pirState == LOW) {
       Serial.println("Motion detected!");
-      pirState = HIGH;  // Update the sensor state to HIGH
-      digitalWrite(ledPin, HIGH);  // Turn on the LED
+      pirState = HIGH;  
+      digitalWrite(ledPin, HIGH); 
     }
   } else {
     if (pirState == HIGH) {
       Serial.println("Motion ended!");
-      pirState = LOW;  // Update the sensor state to LOW
-      digitalWrite(ledPin, LOW);  // Turn off the LED
+      pirState = LOW;  
+      digitalWrite(ledPin, LOW); 
     }
   }
 }
