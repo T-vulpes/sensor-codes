@@ -2,7 +2,7 @@
 const int pirPin = 2;   // HC-SR501 OUT pin connected to digital pin 2
 const int ledPin = 13;  // LED connected to digital pin 13
 
-int pirState = LOW;     // Default state is LOW
+int pirState = LOW;    
 
 void setup() {
   pinMode(ledPin, OUTPUT);
