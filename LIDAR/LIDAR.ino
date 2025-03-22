@@ -30,3 +30,4 @@ int getDistance() {
   int distance = (distanceMSB << 8) + distanceLSB; 
   return distance;
 }
+
