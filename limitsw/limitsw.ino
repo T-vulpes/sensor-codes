@@ -1,4 +1,4 @@
-const int limitSwitch1Pin = 7; // Pin connected to Limit switch 1
+const int limitSwitch1Pin = 7; 
 const int limitSwitch2Pin = 8;
 const int limitSwitch3Pin = 9;
 const int limitSwitch4Pin = 10;
@@ -9,14 +9,13 @@ int ls_4;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(limitSwitch1Pin, INPUT_PULLUP); // Set Limit switch 1 pin as input and activate internal pull-up resistor
+  pinMode(limitSwitch1Pin, INPUT_PULLUP); 
   pinMode(limitSwitch2Pin, INPUT_PULLUP);
   pinMode(limitSwitch3Pin, INPUT_PULLUP);
   pinMode(limitSwitch4Pin, INPUT_PULLUP);
 }
 
 void loop() {
-  // Read the state of limit switches
   int limitSwitch1State = digitalRead(limitSwitch1Pin);
   int limitSwitch2State = digitalRead(limitSwitch2Pin);
   int limitSwitch3State = digitalRead(limitSwitch3Pin);
