@@ -1,8 +1,8 @@
 #include <Servo.h>
-Servo myservo;  // Creating a servo object
+Servo myservo;  
 
 void setup() {
-  myservo.attach(5); // Attaching the servo signal pin to pin 5
+  myservo.attach(5); 
   myservo.write(0);
   servoStart();     
   delay(1000);       
@@ -10,16 +10,14 @@ void setup() {
   delay(1000);       
 }
 
-void loop() {
-  // Empty
-}
+void loop() {}
 
 void servoStop() {
-  myservo.write(0);  //  0 degrees
+  myservo.write(0);  
   delay(500); 
 }
 void servoStart() {
-  myservo.write(180);  // 180 degrees
+  myservo.write(180);  
   delay(1000);        
   servoStop(); 
 }
