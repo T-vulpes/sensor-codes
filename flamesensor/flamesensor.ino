@@ -33,7 +33,7 @@ void loop() {
     Serial.println("Fire detected!"); 
   } else {
     digitalWrite(ledPin, LOW);
-    Serial.println("No fire detected."); // Send a message to the serial monitor
+    Serial.println("No fire detected."); 
   }
   
   delay(500); 
