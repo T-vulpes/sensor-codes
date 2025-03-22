@@ -1,11 +1,11 @@
 #include <Wire.h>
 int ADXL345 = 0x53; // ADXL345 device address
 
-float X_out, Y_out, Z_out; // variables to store the acceleration values
+float X_out, Y_out, Z_out; 
 
 void setup() {
   Serial.begin(9600); 
-  Wire.begin(); // initialize I2C communication
+  Wire.begin();
   
   Wire.beginTransmission(ADXL345);
   Wire.write(0x2D); // Access/ talk to POWER_CTL Register
