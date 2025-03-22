@@ -6,7 +6,7 @@ void setup() {
 }
 void loop() {
   int sensorValue = analogRead(rainSensorPin); 
-  float voltage = sensorValue * (5.0 / 1023.0); // Convert the analog reading to voltage
+  float voltage = sensorValue * (5.0 / 1023.0); 
   float waterLevel = map(sensorValue, 0, 1023, 0, 100); // Map the sensor value to a water level percentage (0-100)
 
   Serial.print("Sensor Value: "); 
