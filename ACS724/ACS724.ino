@@ -8,7 +8,7 @@ void setup() {
 }
 
 void loop() {
-  sensorValue = analogRead(sensorPin); // read the sensor's output voltage
+  sensorValue = analogRead(sensorPin); 
   float voltage = (sensorValue * 5.0) / 1024.0; // convert the analog value to voltage
   
   // For ACS712 sensor, the output voltage is around 2.5V at zero current (check this value from the datasheet)
@@ -18,5 +18,5 @@ void loop() {
   Serial.print("Current: ");
   Serial.print(current);
   Serial.println(" A");
-  delay(1000); // 1 second delay
+  delay(1000); 
 }
