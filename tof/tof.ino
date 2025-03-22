@@ -3,7 +3,6 @@
 
 #define ADDRESS1 0x29
 #define ADDRESS2 0x52
-
 VL6180X sensor1;
 VL6180X sensor2;
 
