@@ -26,5 +26,5 @@ void loop() {
   Serial.print(pressure);
   Serial.println(" hPa");
 
-  delay(1000); // Wait for 1 second before repeating the loop
+  delay(1000); 
 }
