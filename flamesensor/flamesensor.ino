@@ -11,7 +11,6 @@
 //VCC -> Arduino 5V
 //GND -> Arduino GND
 //D0 -> Arduino digital pin 2 (or A0 for analog)
-//LED:
 
 //Long leg (anode) -> 220-ohm resistor -> Arduino digital pin 13
 //Short leg (cathode) -> Arduino GND
