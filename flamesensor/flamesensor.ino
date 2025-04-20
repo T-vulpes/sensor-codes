@@ -16,8 +16,8 @@
 //Long leg (anode) -> 220-ohm resistor -> Arduino digital pin 13
 //Short leg (cathode) -> Arduino GND
 
-const int flameSensorPin = 2; // Connect D0 pin to digital pin 2 (or A0 for analog)
-const int ledPin = 13;        // Connect the LED to digital pin 13
+const int flameSensorPin = 2; 
+const int ledPin = 13;        
 
 void setup() {
   pinMode(flameSensorPin, INPUT);
