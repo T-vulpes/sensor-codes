@@ -24,9 +24,9 @@ void loop() {
   X_out = (Wire.read() | Wire.read() << 8);
   X_out = X_out / 256; // convert to 'g'
   Y_out = (Wire.read() | Wire.read() << 8);
-  Y_out = Y_out / 256; // convert to 'g'
+  Y_out = Y_out / 256;
   Z_out = (Wire.read() | Wire.read() << 8);
-  Z_out = Z_out / 256; // convert to 'g'
+  Z_out = Z_out / 256; 
   
   Serial.print("Xa= ");
   Serial.print(X_out);
