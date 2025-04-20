@@ -1,4 +1,4 @@
-int sensorPin = A0; // select the input pin for the sensor
+int sensorPin = A0; 
 float sensorValue = 0;
 float current = 0;
 float sensitivity = 0.185; // sensitivity of the sensor in mV/A
