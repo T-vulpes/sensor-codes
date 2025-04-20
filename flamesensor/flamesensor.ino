@@ -5,8 +5,6 @@
 //220-ohm resistor
 //Jumper wires
 //Breadboard
-//Connections:
-//Flame Sensor:
 
 //VCC -> Arduino 5V
 //GND -> Arduino GND
