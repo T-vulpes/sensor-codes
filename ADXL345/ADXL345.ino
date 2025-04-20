@@ -34,6 +34,5 @@ void loop() {
   Serial.print(Y_out);
   Serial.print("   Za= ");
   Serial.println(Z_out);
-  
   delay(1000); 
 }
