@@ -2,7 +2,7 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BMP3XX.h>
 
-Adafruit_BMP388 bmp; // BMP388 sensor
+Adafruit_BMP388 bmp; 
 
 void setup() {
   Serial.begin(9600);
@@ -14,7 +14,6 @@ void setup() {
 
 void loop() {
   float temperature, pressure;
-
   temperature = bmp.readTemperature(); 
   pressure = bmp.readPressure() / 100.0F; 
 
