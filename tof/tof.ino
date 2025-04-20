@@ -9,7 +9,7 @@ VL6180X sensor2;
 void setup() {
   Serial.begin(9600);
   Wire.begin();
-  
+
   sensor1.init();
   sensor2.init();
   
